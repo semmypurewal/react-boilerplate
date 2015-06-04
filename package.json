@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "watch": "watchify -t reactify main.jsx -o build.js",
+        "build": "browserify -t reactify main.jsx > build.js"
+    },
+    "devDependencies": {
+        "browserify": "^10.2.3",
+        "react": "^0.13.3",
+        "reactify": "^1.1.1",
+        "watchify": "^3.2.1"
+    }
+}
